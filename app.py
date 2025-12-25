@@ -2,13 +2,13 @@ import streamlit as st
 import pandas as pd 
 import pickle as pkl
 
-#scaler=pkl.load(open('scaler.pkl','rb'))
-#model=pkl.load(open('model.pkl','rb'))
+scaler=pkl.load(open('scaler.pkl','rb'))
+model=pkl.load(open('model.pkl','rb'))
 
-with open('scaler.pkl', 'rb') as f:
-    scaler = pkl.load(f)
-with open('model.pkl', 'rb') as f:
-    model = pkl.load(f)
+#with open('scaler.pkl', 'rb') as f:
+    #scaler = pkl.load(f)
+#with open('model.pkl', 'rb') as f:
+    #model = pkl.load(f)
     
 
 
